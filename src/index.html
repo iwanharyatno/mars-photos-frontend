@@ -18,13 +18,40 @@
           <div class="accordion" id="cameras-accordion">
             <div class="accordion-item">
               <h2 class="accordion-header">
+                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#perseverance">
+                  Perseverance Cameras
+                </button>
+              </h2>
+              <div id="perseverance" class="accordion-collapse collapse show" data-bs-parent="#cameras-accordion">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item rover-cam py-3 active ps-5" data-abbr="">All</li>
+                  <li class="list-group-item rover-cam py-3 ps-5" data-abbr="edl_rucam">Rover Up-Look Camera</li>
+                  <li class="list-group-item rover-cam py-3 ps-5" data-abbr="edl_rdcam">Rover Down-Look Camera</li>
+                  <li class="list-group-item rover-cam py-3 ps-5" data-abbr="edl_ddcam">Descent Stage Down-Look Camera</li>
+                  <li class="list-group-item rover-cam py-3 ps-5" data-abbr="edl_pucam1">Parachute Up-Look Camera A</li>
+                  <li class="list-group-item rover-cam py-3 ps-5" data-abbr="edl_pucam2">Parachute Up-Look Camera B</li>
+                  <li class="list-group-item rover-cam py-3 ps-5" data-abbr="navcam_left">Navigation Camera - Left</li>
+                  <li class="list-group-item rover-cam py-3 ps-5" data-abbr="navcam_right">Navigation Camera - Right</li>
+                  <li class="list-group-item rover-cam py-3 ps-5" data-abbr="mcz_left">Mast Camera Zoom - Right</li>
+                  <li class="list-group-item rover-cam py-3 ps-5" data-abbr="mcz_right">Mast Camera Zoom - Right</li>
+                  <li class="list-group-item rover-cam py-3 ps-5" data-abbr="front_hazcam_left_a">Front Hazard Avoidance Camera - Left</li>
+                  <li class="list-group-item rover-cam py-3 ps-5" data-abbr="front_hazcam_right_a">Front Hazard Avoidance Camera - Right</li>
+                  <li class="list-group-item rover-cam py-3 ps-5" data-abbr="rear_hazcam_left">Rear Hazard Avoidance Camera - Left</li>
+                  <li class="list-group-item rover-cam py-3 ps-5" data-abbr="rear_hazcam_right">Rear Hazard Avoidance Camera - Right</li>
+                  <li class="list-group-item rover-cam py-3 ps-5" data-abbr="skycam">MEDA Skycam</li>
+                  <li class="list-group-item rover-cam py-3 ps-5" data-abbr="sherloc_watson">SHERLOC WATSON Camera</li>
+                </ul>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
                 <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#curiosity">
                   Curiosity Cameras
                 </button>
               </h2>
-              <div id="curiosity" class="accordion-collapse collapse show" data-bs-parent="#cameras-accordion">
+              <div id="curiosity" class="accordion-collapse collapse" data-bs-parent="#cameras-accordion">
                 <ul class="list-group list-group-flush">
-                  <li class="list-group-item rover-cam py-3 active ps-5" data-abbr="">All</li>
+                  <li class="list-group-item rover-cam py-3 ps-5" data-abbr="">All</li>
                   <li class="list-group-item rover-cam py-3 ps-5" data-abbr="fhaz">Front Hazard Avoidance Camera</li>
                   <li class="list-group-item rover-cam py-3 ps-5" data-abbr="rhaz">Rear Hazard Avoidance Camera</li>
                   <li class="list-group-item rover-cam py-3 ps-5" data-abbr="mast">Mast Camera</li>
