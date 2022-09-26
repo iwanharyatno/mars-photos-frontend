@@ -52,6 +52,8 @@ customElements.define('photo-list', class extends HTMLElement {
   set loading(loading) {
     this._loading = loading;
     this._photos = [];
+    this._pages = [];
+    this._page = 0;
     this.render();
   }
 
