@@ -20,7 +20,7 @@ customElements.define('photo-item', class extends HTMLElement {
     this.innerHTML = `
     <div class="card m-3">
       <a href="${this.photo.img_src}" target="_blank">
-        <img class="card-img-top" src="${this.photo.img_src}">
+        <img class="card-img-top" src="${this.photo.img_src}" alt="Mars Photo by ${this.photo.rover.name} on sol ${this.photo.sol}" loading="lazy">
       </a>
       <div class="card-body d-flex flex-wrap">
         <h3 class="card-title w-100 text-primary">Info</h3>
