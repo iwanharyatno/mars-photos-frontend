@@ -13,7 +13,7 @@ function generatePages(total, length=25) {
     pageIntervals.push([i*length, (i+1)*length]);
   }
 
-  if (total % length !== 0) pageIntervals.push([pagesCount*length+1, total]);
+  if (total % length !== 0) pageIntervals.push([pagesCount*length, total]);
 
   return pageIntervals;
 }
